@@ -16,11 +16,18 @@ Place the list right under the heading. Remember that each list needs a unique k
 ### Browser Image
 
 <figure>
-    <img src ="./images/europe.png"
+    <img src ="src/assets/home_com.png"
          alt ="cras table"
-         width ="250"
-         height ="250">
-    <!-- <figcaption><em>Cars Table</em></figcaption> -->
+         width ="450"
+         height ="350">
+   <figcaption><em>Homepage</em></figcaption>
+</figure>
+<figure>
+    <img src ="src/assets/workshops_com.png"
+         alt ="cras table"
+         width ="450"
+         height ="350">
+    <figcaption><em>Workshops page</em></figcaption>
 </figure>
 
 ### Hints
