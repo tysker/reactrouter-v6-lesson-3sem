@@ -1,21 +1,17 @@
 # React Router Version 6
-#### lesson 01
+#### lesson 02
 ***
 
 
 ### Description
 
-1. install react-router-dom
-2. import rect-router-dom and connect to the browser's url in the main.jsx file
-3. create your first route with the **Home** component as the element. path = /
-   - The Home component needs props. Make sure to inject them through your route tag.
-   - Place the route between the Header and the Footer in the main.jsx file.
-4. create another route, this time for the **Workshops** component. path = workshops
-5. in the **Workshops** component, import the getWorkshops function from the api.js file.
-6. loop through the data, you received from the getWorkshops function, to create a list that shows all workshop names from the dataset.
-   - Place the list right under the heading. 
-   - Remember that each list needs a unique key!
-   - the ul tag needs a className with name **workshops**
+1. Instead of writing the url manually in the url field, we would like to do this by a simple mouse click.
+    - Between the nav tag in the main.jsx component, place a Link that points to the workshops path.
+2. Now do the same with the Home and About component.
+3. We also want to be able to click on the SchoolHacks logo, so we can easily return to the Home component.
+4. The Header tag fills too much in our main file.
+   - export the header in a **Header** component and then import the component back in the main file.
+
 
 ### Browser Image
 
@@ -29,13 +25,9 @@
 
 ### Hints
 
-- BrowserRouter
-- Routes
-- Route
-- map()
-- \<ul>\</ul\>
-- \<li>\</li\>
-- 
+- Link
+- to=""
+
 
 
 

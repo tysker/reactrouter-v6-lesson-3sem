@@ -17,6 +17,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                     alt="SchoolHacks logo"
                     title="SchoolHacks | Home"
                 />
+                <nav>
+                    {/*Link*/}
+                </nav>
             </header>
 
             <Routes>
