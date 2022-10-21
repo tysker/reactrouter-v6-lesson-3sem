@@ -9,6 +9,7 @@
    - our goal is, to show each workshop session information below the workshop link in the browser.
    - see the image below
    - use the newly added Session component to archive just that.
+   - you also need to do some changes in the Workshop component.
 
 ### Browser Image
 
@@ -23,6 +24,8 @@
 ### Hints
 - you need to add another nested route in the main.jsx file.
 - study closely the Session component, Specially the useParam() hook.
+- Maybe the NavLink will help you in the Workshop component?!
+- Remember to style the NavLink component as you did before!
 
 
 
