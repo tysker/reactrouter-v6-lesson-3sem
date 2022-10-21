@@ -8,7 +8,7 @@
 1. Now we would like to set op links for each of the workshops in the **Workshops** component.
    - import Link and wrap each workshop element in a Link tab.
    - each Link should navigate the user to the workshop id. (Tjek the json object in aps.js if in doubt.)
-   - now if you go to the Workshops link in the browser, you should be able to click on each Workshop.
+   - now if you go to the Workshops link in the browser, you should now be able to click on each Workshop.
    - if you click on a workshop link you get our newly created error page. That's because we haven't defined the route yet.
 2. Do we have to create an individual route for each Workshop??? Luckily we don't have to this. We make use of url parameters.
    - we need to be able to point to the url id for each workshop. Like if you click on the "3D Printing and Design" workshop, your url will
