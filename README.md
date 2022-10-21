@@ -1,28 +1,30 @@
 # React Router Version 6
-#### lesson 05
+#### lesson 06
 ***
 
 
 ### Description
 
-1. In lesson 4 we created a route to match URLs like workshop/education-and-training or workshop/keynote using 
-the workID param in our nested route. You can use that information to perform various actions within the Workshop
-component. Like find and display the workshop name and sessions. So how do we access this dynamic portion of the 
-URL from inside the workshop component? Just like React, react-router also has some hooks at his disposal. Like useParams().
-   - go to the workshop component and import the useParams into the "react-router-dom".
-   - the useParams() returns an object. Create a constant variable to pass the useParam object into. 
-   - use the console.log to see the object in the browser developer tool when clicking on a Workshop Category.
-2. With the information we're getting from the useParam hook, we are now able to show the user a description for each
-of the workshops.
-   - Import the getWorkshop() function from the api.js file into the Workshop component.
-   - Have a look at the getWorkshop() function, what parameters does it expect to receive?
-   - use the return value from the function to replace the h2 tag with the workshop name.
-3. Underneath the h2 tag create a unsorted list inclusive the className="workshop-list". Here we want to display
-a list with two paragraph tags. The first one showing the workshop name and the other one the speaker name 
-and speaker organisation. Again, have a look at the json objects in api.js if in doubt!
-   - look at the object from the getWorkshop() function. There you will find an array.
-   - loop through the array, to create a list with the above-mentioned information.
+1. A user-friendly app gives users visual feedback about the page they're currently visiting. One common approach
+is to display an active link in a top navigation menu or sidebar, for example. For just that, React-Router provides
+a component called NavLink, which you can use to change the appearance of a link when it's active. Let's use NavLink
+in our site to set active links for the main navigation and the workshop link.
+The NavLink component gives you a few options to style the rendered element when it's path matches the current URL.
+   - Open the Workshops component and replace the Link import with the NavLink import. Also Replace the Link tag with the newly
+   imported NavLink. Inspect the NavLink in the browser's developer tool. Apart from the \<a> tag you will find a class called "active".
+   This class will only show if the link is active. With that you can style you NavLink component.
+   - In the NavLink tab, try to style the component with a ternary operator. If active, style the link color like this, 
+   if not, style the color link differently.
+   - Ok, now you know how to do this. Replace the NavLink style option with className. Here you do the same as above but, instead of changed
+   the color we change the className. If active use the className="workshop-active" otherwise set it to null.
+2. Go into the Header component, and change all Link's tags, apart from the image Link tag to NavLink's. 
+3. In the Header component right above the return statement, include this line of code:
 
+```JS
+  const getClass = ({ isActive }) => (isActive ? "nav-active" : null);
+```
+
+4. Add className={getClass()} in each NavLink component.
 
 
 ### Browser Image
@@ -36,10 +38,8 @@ and speaker organisation. Again, have a look at the json objects in api.js if in
 </figure>
 
 ### Hints
-- export function getWorkshop(workId) 
-- remember each list needs a unique key
-- ul, li, p
-- map()
+- style={({ isActive })} => ({})
+- condition ? doSomething : orDoSomethingElse
 
 
 
