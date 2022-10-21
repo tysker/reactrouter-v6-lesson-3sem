@@ -30,11 +30,11 @@ The NavLink component gives you a few options to style the rendered element when
 ### Browser Image
 
 <figure>
-    <img src ="src/assets/"
+    <img src ="src/assets/navlink.jpg"
          alt ="cras table"
-         width ="250"
+         width ="350"
          height ="250">
-    <figcaption><em>Cars Table</em></figcaption>
+    <figcaption>NavLink's</figcaption>
 </figure>
 
 ### Hints
