@@ -28,11 +28,11 @@ and the other one the speaker name and the speakers' organisation. Have a look a
 ### Browser Image
 
 <figure>
-    <img src ="src/assets/"
+    <img src ="src/assets/workshopsessions.png"
          alt ="cras table"
-         width ="250"
-         height ="250">
-    <figcaption><em>Cars Table</em></figcaption>
+         width ="450"
+         height ="300">
+    <figcaption>Workshop Sessions</figcaption>
 </figure>
 
 ### Hints
