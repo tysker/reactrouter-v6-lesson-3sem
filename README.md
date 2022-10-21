@@ -11,7 +11,7 @@
 2. Now do the same with the Home and About component.
 3. We also want to be able to click on the SchoolHacks logo, so we can easily return to the Home component.
 4. The Header tag fills too much in our main file.
-    - export the header in a **Header** component and then import the component back in the main file.
+    - export the header in a **Header** component and then import the component back into the main file.
 
 ### Browser Image
 
@@ -45,7 +45,7 @@
 
 ### Hints
 
-- Link
+- Link tag
 - to=""
 
 
