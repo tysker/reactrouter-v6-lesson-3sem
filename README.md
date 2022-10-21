@@ -16,7 +16,7 @@ Here we can use something call **nested routes**.
 We would like to create some sort of feedback to the user, so the user is aware of the wrong entered url.
     - create a route, that will take all the path's that are none existing and show the user an error message.
     - you can do that in two ways. The first one is to create an Error component, or you simply inject an error message into the route.
-    - (optional) use the className="not-found" for styling the component. You the result in the image below.
+    - (optional) use the className="not-found" for styling the component.
 
 
 ### Browser Image
