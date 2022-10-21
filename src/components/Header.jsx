@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/schoolhacks-logo.png";
 
 export default function Header() {
+    const getClass = ({ isActive }) => (isActive ? "nav-active" : null);
 
     return (
         <header className="container">
@@ -15,9 +16,18 @@ export default function Header() {
             </Link>
 
             <nav>
-                <Link to="/" >Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/workshops">Workshops</Link>
+                <NavLink to="/" className={getClass}>
+                    Home
+                </NavLink>
+                <NavLink to="/about" className={getClass}>
+                    About
+                </NavLink>
+                <NavLink to="/workshops" className={getClass}>
+                    Workshops
+                </NavLink>
+                <NavLink to="/register" className={getClass}>
+                    Register
+                </NavLink>
             </nav>
         </header>
     );
