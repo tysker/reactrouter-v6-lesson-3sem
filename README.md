@@ -13,7 +13,7 @@
 2. Do we have to create an individual route for each Workshop??? Luckily we don't have to this. We make use of url parameters.
    - we need to be able to point to the url id for each workshop. Like if you click on the "3D Printing and Design" workshop, your url will
    look something like that, http://localhost:yourPort/workshops/3d-printing-and-design.
-   - go to the main.jsx file and replace the path value with a colon and a name of your choice. Probably workID would be a good choice (-;.
+   - go to the main.jsx file and replace the path value with a colon and followed by workID.
 
 
 
