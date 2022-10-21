@@ -20,7 +20,7 @@
          alt ="cras table"
          width ="350"
          height ="100">
-    <figcaption><em>Link Headers</em></figcaption>
+    <figcaption>Link Headers</figcaption>
 </figure>
 
 <figure>
@@ -28,15 +28,15 @@
          alt ="cras table"
          width ="350"
          height ="250">
-    <figcaption><em>About Page</em></figcaption>
+    <figcaption>About Page</figcaption>
 </figure>
 
 <figure>
     <img src ="src/assets/components.png"
          alt ="cras table"
-         width ="350"
+         width ="300"
          height ="150">
-    <<figcaption><em>Components</em></figcaption>
+    <<figcaption>Components</figcaption>
 </figure>
 
 ### Hints
