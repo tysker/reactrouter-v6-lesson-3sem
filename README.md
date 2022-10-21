@@ -23,6 +23,8 @@
     <figcaption>Link Headers</figcaption>
 </figure>
 
+***
+
 <figure>
     <img src ="src/assets/about.png"
          alt ="cras table"
@@ -31,12 +33,14 @@
     <figcaption>About Page</figcaption>
 </figure>
 
+***
+
 <figure>
     <img src ="src/assets/components.png"
          alt ="cras table"
          width ="300"
          height ="150">
-    <<figcaption>Components</figcaption>
+    <figcaption>Components</figcaption>
 </figure>
 
 ### Hints
