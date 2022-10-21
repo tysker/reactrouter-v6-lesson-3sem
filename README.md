@@ -20,11 +20,21 @@
 ### Browser Image
 
 <figure>
-    <img src ="src/assets/"
+    <img src ="src/assets/workshoplink.png"
          alt ="cras table"
-         width ="250"
+         width ="350"
          height ="250">
-    <figcaption><em>Cars Table</em></figcaption>
+    <figcaption>Workshop Link</figcaption>
+</figure>
+
+***
+
+<figure>
+    <img src ="src/assets/workshopurl.png"
+         alt ="cras table"
+         width ="300"
+         height ="35">
+    <figcaption>Workshop URL</figcaption>
 </figure>
 
 ### Hints

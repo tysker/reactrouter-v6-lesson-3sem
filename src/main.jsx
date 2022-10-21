@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                     <Route path="/" element={<Home titel="Welcome to SchoolHacks"/>}/>
                     <Route path="about" element={<About/>}/>
                     <Route path="workshops" element={<Workshops/>}>
-                        <Route path="workshop" element={<Workshop/>}/>
+                        <Route path=":workID" element={<Workshop/>}/>
                     </Route>
                     <Route path="*" element={<h1 className="not-found">Page Not Found</h1>}/>
                 </Routes>
