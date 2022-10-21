@@ -1,9 +1,10 @@
-import {Link, useParams} from "react-router-dom";
+import {NavLink, Outlet, useParams} from "react-router-dom";
 import {getWorkshop} from "../api";
 
 export default function Workshop() {
     const {workId} = useParams();
     const workshop = getWorkshop(workId);
+    console.log(workshop)
 
     return (
         <>
@@ -12,16 +13,18 @@ export default function Workshop() {
             <ul className="session-list">
                 {workshop?.sessions.map(session => (
                     <li className="session" key={session.id}>
-                        <Link
+                        <NavLink
+                            className={({ isActive }) => isActive ? "session-active" : null}
                             to={session.id}>
                             <p className="session-name">{session.name}</p>
                             <p>
                                 {session.speaker.name} | {session.speaker.org}
                             </p>
-                        </Link>
+                        </NavLink>
                     </li>
                 ))}
             </ul>
+            <Outlet/>
         </>
     );
 }

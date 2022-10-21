@@ -1,5 +1,5 @@
-import {getWorkshops} from "../api";
-import {NavLink, Outlet} from "react-router-dom";
+import { Outlet, NavLink, Link } from "react-router-dom";
+import { getWorkshops } from "../api";
 
 export default function Workshops() {
     const workshops = getWorkshops();

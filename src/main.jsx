@@ -21,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                         <Route path=":workId" element={<Workshop/>}>
                             <Route path=":sessionId" element={<Session/>}/>
                         </Route>
+                        {/*If no workshop category is selected, it will show the route below. I used index instead of path!!*/}
                         <Route index element={<h3>Select a workshop from above</h3>}/>
                     </Route>
                     <Route path="*" element={<h1 className="not-found">Page Not Found</h1>}/>
