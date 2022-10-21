@@ -1,19 +1,20 @@
 # React Router Version 6
-#### lesson 03
+#### lesson 04
 ***
 
 
 ### Description
 
-1. When we click on the Workshops link now, we get presented with all workshops that are available to os. Now we would like to 
-be able to click on each individual workshop to get some information what the workshop is all about. But we would like to see that information
-not on a different page but instead underneath the list of workshops. Here we can use something call **nested routes**.
-   - create a nested route that points to **workshops/workshop** and injects the element component **Workshop**.
-   - remember that a nested route is relative to his parent route!
-2. if you try to enter a not valid url, like **localhost:yourPort/workshops/banan**, nothing happens. That is not very user-friendly.
-We would like to create some sort of feedback to the user, so the user is aware of the wrong entered url.
-    - create a route, that will take all the path's that are none existing and show the user an error message.
-    - you can do that in two ways. The first one is to create an Error component, or you simply inject an error message into the route.
+1. Now we would like to set op links for each of the workshops in the **Workshops** component.
+   - import Link and wrap each workshop element in a Link tab.
+   - each Link should navigate the user to the workshop id. (Tjek the json object in aps.js if in doubt.)
+   - now if you go to the Workshops link in the browser, you should be able to click on each Workshop.
+   - if you click on a workshop link you get our newly created error page. That's because we haven't defined the route yet.
+2. Do we have to create an individual route for each Workshop??? Luckily we don't have to this. We make use of url parameters.
+   - we need to be able to point to the url id for each workshop. Like if you click on the "3D Printing and Design" workshop, your url will
+   look something like that, http://localhost:yourPort/workshops/3d-printing-and-design.
+   - go to the main.jsx file and replace the path value with a colon and a name of your choice. Probably workID would be a good choice (-;.
+
 
 
 ### Browser Image
@@ -27,8 +28,10 @@ We would like to create some sort of feedback to the user, so the user is aware 
 </figure>
 
 ### Hints
-- \<Route>\<Route>\</Route>\</Route>
-- \<Outlet/>
+- Link tab
+- id: "homebuilding-and-3d-printing"
+- path=":someID"
+- http://localhost:yourPort/workshops/:workID
 
 
 
