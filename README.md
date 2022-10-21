@@ -17,9 +17,9 @@ of the workshops.
    - Import the getWorkshop() function from the api.js file into the Workshop component.
    - Have a look at the getWorkshop() function, what parameters does it expect to receive?
    - use the return value from the function to replace the h2 tag with the workshop name.
-3. Underneath the h2 tag create a unsorted list inclusive the className="workshop-list". Here we want to display
-a list with two paragraph tags. The first one showing the workshop name and the other one the speaker name 
-and speaker organisation. Again, have a look at the json objects in api.js if in doubt!
+3. Underneath the h2 tag create a unsorted list inclusive the className="session-list". Here we want to display
+a list with two paragraph tags. The first one showing the workshop name, (use the className="session-name" for this tag) 
+and the other one the speaker name and the speakers' organisation. Have a look at the json objects in api.js if in doubt!
    - look at the object from the getWorkshop() function. There you will find an array.
    - loop through the array, to create a list with the above-mentioned information.
 
