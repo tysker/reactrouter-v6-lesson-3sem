@@ -1,32 +1,34 @@
 # React Router Version 6
-#### lesson 02
+#### lesson 03
 ***
 
 
 ### Description
 
-1. Instead of writing the url manually in the url field, we would like to do this by a simple mouse click.
-    - Between the nav tag in the main.jsx component, place a Link that points to the workshops path.
-2. Now do the same with the Home and About component.
-3. We also want to be able to click on the SchoolHacks logo, so we can easily return to the Home component.
-4. The Header tag fills too much in our main file.
-   - export the header in a **Header** component and then import the component back in the main file.
+1. When we click on the Workshops link now, we get presented with all workshops that are available to os. Now we would like to 
+be able to click on each individual workshop to get some information what the workshop is all about. But we would like to see that information
+not on a different page but instead underneath the list of workshops. Here we can use something call **nested routes**.
+   - create a nested route that points to **workshops/workshop** and injects the element component **Workshop**.
+   - remember that a nested route is relative to his parent route!
+2. if you try to enter a not valid url, like **localhost:yourPort/workshops/banan**, nothing happens. That is not very user-friendly.
+We would like to create some sort of feedback to the user, so the user is aware of the wrong entered url.
+    - create a route, that will take all the path's that are none existing and show the user an error message.
+    - you can do that in two ways. The first one is to create an Error component, or you simply inject an error message into the route.
 
 
 ### Browser Image
 
 <figure>
-    <img src ="./images/europe.png"
+    <img src ="src/assets/"
          alt ="cras table"
          width ="250"
          height ="250">
-    <!-- <figcaption><em>Cars Table</em></figcaption> -->
+    <figcaption><em>Cars Table</em></figcaption>
 </figure>
 
 ### Hints
-
-- Link
-- to=""
+- \<Route>\<Route>\</Route>\</Route>
+- \<Outlet/>
 
 
 
