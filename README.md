@@ -22,7 +22,7 @@
    for his email. The input value we get from Reacts useRef() hook. The idear here is that we want the user to 
    submit the form and then to show him a conformation page.
    - Add the Register component into the Header component
-   - Add a new route pointing to the newly added Confirmation component. path="confirmed"
+   - Add a two new routes pointing to the newly added Confirmation and the Register component.
    - In the Register component you have to figure out how to navigate the user to the Confirmation page.
 
 ### Browser Image
@@ -31,8 +31,28 @@
     <img src ="src/assets/select.png"
          alt ="cras table"
          width ="400"
-         height ="260">
+         height ="200">
     <figcaption>Index Route</figcaption>
+</figure>
+
+***
+
+<figure>
+    <img src ="src/assets/register.png"
+         alt ="cras table"
+         width ="400"
+         height ="260">
+    <figcaption>Register Page</figcaption>
+</figure>
+
+***
+
+<figure>
+    <img src ="src/assets/confirmation.png"
+         alt ="cras table"
+         width ="400"
+         height ="150">
+    <figcaption>Confirmation Page</figcaption>
 </figure>
 
 ### Hints
