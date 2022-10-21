@@ -11,6 +11,7 @@ about. But we would like to see that information not on a different page but ins
 Here we can use something call **nested routes**.
    - create a nested route that points to **workshops/workshop** and injects the element component **Workshop**.
    - remember that a nested route is relative to his parent route!
+   - remember to import and place the Outlet tag in the workshops component,
    - now if you enter the url **localhost:yourPort/workshops/workshop**, you should get the image shown below called **Workshop Sessions**.
 2. if you try to enter a not valid url, like **localhost:yourPort/workshops/banan**, nothing happens. That is not very user-friendly.
 We would like to create some sort of feedback to the user, so the user is aware of the wrong entered url.
@@ -41,7 +42,7 @@ We would like to create some sort of feedback to the user, so the user is aware 
 
 ### Hints
 - \<Route>\<Route>\</Route>\</Route>
-- \<Outlet/>
+- \<Outlet/> = is used for displaying the components children (nested routes).
 - path="*"
 
 
