@@ -21,16 +21,16 @@ page were more personalized. Like displaying the user's email or other informati
 ### Browser Image
 
 <figure>
-    <img src ="src/assets/"
+    <img src ="src/assets/confirmation.png"
          alt ="cras table"
          width ="400"
          height ="260">
-    <figcaption>Index Route</figcaption>
+    <figcaption>Confirmation</figcaption>
 </figure>
 
 ### Hints
 - useLocation();
-
+- useRef();
 
 
 
