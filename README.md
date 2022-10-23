@@ -2,8 +2,8 @@
 
 ### Description
 
-In this exercise we are going to learn the basic for the react-router-dom. After finishing this exercise,
-you will have efficient knowledge about routing for completing the tasks ahead in this semester.
+In this exercise we are going to learn the basics about the react-router-dom. After this exercise, you will have 
+acquired solid understanding of routing and how to solve the tasks that await you later this semester.
 
 The exercises are divided in 9 lessons. In each lesson you will be presented with some tasks that
 you need to solve.
@@ -15,8 +15,8 @@ You will work on two seperated windows. The first window you are going to solve 
 second (git repo) is for comparing. The solution for each lesson is on the branch ahead.
 
 ```
-### You are just going to cheat yourself by looking ahead before you really tried 
-### yourself to come up with your own solution. Don't be a cheater!!!
+You are only going to be cheating yourself by peeking ahead! Try first
+to come up with your own solution. Don't be a cheater!!!
 ```
 
 ### What to do!
@@ -50,3 +50,7 @@ second (git repo) is for comparing. The solution for each lesson is on the branc
 ```
    git checkout lesson-...
 ```
+
+###
+
+[React Router V6](https://reactrouter.com/en/v6.3.0)
