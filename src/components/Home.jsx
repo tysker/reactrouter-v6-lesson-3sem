@@ -7,7 +7,8 @@ export default function Home({ title }) {
       <img
         className="img-feat"
         src={featImg}
-        alt="SchoolHacks workshops attendees"
+        alt="Main picture"
+        title="SchoolHacks workshops attendees"
       />
 
       <h1>{title}</h1>
